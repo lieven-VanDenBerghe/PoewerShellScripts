@@ -10,6 +10,7 @@ choco upgrade chocolateygui
 #choco list .... #to find a package to install
 
 #programs to install
+## utilitys
 choco install -y firefox
 choco upgrade firefox
 
@@ -18,9 +19,6 @@ choco upgrade github-desktop
 
 choco install -y 7zip
 choco upgrade 7zip
-
-choco install -y vscode
-choco upgrade vscode
 
 choco install -y vscode
 choco upgrade vscode
@@ -46,14 +44,18 @@ choco upgrade virtualbox
 choco install -y virtualbox-guest-additions-guest.install
 choco upgrade virtualbox-guest-additions-guest.install
 
+choco install -y discord
+choco upgrade discord
+
+choco install -y bitwarden
+choco upgrade bitwarden
+
+## games
 choco install -y steam-client
 choco upgrade steam-client
 
 choco install -y epicgameslauncher
 choco upgrade epicgameslauncher
-
-choco install -y discord
-choco upgrade discord
 
 choco install -y ps-remote-play
 choco upgrade ps-remote-play
@@ -69,9 +71,6 @@ choco upgrade runelite
 
 choco install -y osu
 choco upgrade osu
-
-choco install -y bitwarden
-choco upgrade bitwarden
 
 choco install -y leagueoflegends
 choco upgrade leagueoflegends
