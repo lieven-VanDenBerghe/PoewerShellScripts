@@ -20,3 +20,9 @@ choco upgrade 7zip
 
 choco install -y vscode
 choco upgrade vscode
+
+choco install -y vscode
+choco upgrade vscode
+
+choco install -y pandoc  # voor markdown in vscode
+choco upgrade pandoc
